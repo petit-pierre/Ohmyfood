@@ -55,6 +55,13 @@ header {
         background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%); 
         color: white;
         font-size: 16px;
+        box-shadow: 0px 5px 5px #7d7d7d;
+        opacity: 1 250ms;
+        transition: opacity 250ms;
+        &:hover {
+            opacity: 0.8;
+            transition: all 250ms;
+        }
     }
 }
 
@@ -102,7 +109,46 @@ header {
     }
     a {
         text-decoration: none;
+        color: black;
     }
+}
+
+.restaurants__cards-coeur {
+    background-color: white;
+    border: none;
+}
+
+.restaurants__cards-coeur-btn {
+    position: relative;
+    top: -18%;
+    left: 64%;
+    z-index: 1;
+}
+
+.restaurants__cards-coeur-color {
+    position: relative;
+    top: 10%;
+    left: 10%;
+    opacity: 0;
+    transition: opacity 1000ms;
+    z-index: 2;
+}
+
+.restaurants__cards-coeur {
+    input {
+        -webkit-appearance: none;
+        cursor: pointer;
+        position: relative;
+        left: 60%;
+        top : 10%;
+        width: 40%;
+        height: 40%;
+        z-index: 3;
+        &:checked + .restaurants__cards-coeur-color {
+            opacity: 0.9;
+        }
+    }
+    width: 20%;
 }
 
 
