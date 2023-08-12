@@ -77,8 +77,8 @@ header {
 .restaurants__cards-coeur-btn {
   position: absolute;
   z-index: 1;
-  left: 90%;
-  top: 30px;
+  left: 80%;
+  top: 25px;
 }
 
 .restaurants__cards-coeur-color {
@@ -86,16 +86,16 @@ header {
   opacity: 0;
   transition: opacity 1000ms;
   z-index: 2;
-  left: 90%;
-  top: 30px;
+  left: 80%;
+  top: 25px;
 }
 
 .restaurants__cards-coeur input {
   -webkit-appearance: none;
   cursor: pointer;
   position: absolute;
-  left: 90%;
-  top: 30px;
+  left: 80%;
+  top: 25px;
   width: 22px;
   height: 21px;
   z-index: 3;
@@ -112,6 +112,7 @@ header {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
+  padding-left: 12px;
 }
 .menu__contenu .maj span {
   -webkit-text-decoration: underline #99E2D0 3px;
@@ -122,7 +123,7 @@ header {
   position: relative;
   left: -100%;
   background-color: white;
-  width: 94%;
+  width: 92%;
   height: 72px;
   border-radius: 20px;
   box-shadow: 0px 5px 5px #7d7d7d;
@@ -152,12 +153,26 @@ header {
 .menu__contenu .card .menu__contenu-cards:checked + .prixetanim {
   transform: translate(-65px);
 }
+.menu__contenu .card .menu__contenu-cards:checked ~ .card__content .card__content-invisible {
+  display: inline;
+}
+.menu__contenu .card .menu__contenu-cards:checked ~ .card__content .card__content-visible {
+  opacity: 0;
+}
 .menu__contenu .card .menu__contenu-cards p {
   font-size: 15px;
 }
 .menu__contenu .card .card__content {
   font-weight: 300;
   line-height: 2px;
+}
+.menu__contenu .card .card__content .card__content-invisible {
+  display: none;
+  position: absolute;
+}
+.menu__contenu .card .card__content .card__content-visible {
+  opacity: 1;
+  transition: all 500ms;
 }
 .menu__contenu .prixetanim {
   display: flex;
@@ -181,12 +196,70 @@ header {
   padding-left: 22px;
 }
 .menu__contenu .zero {
-  transform: translate(105%);
+  transform: translate(107%);
   transition: 3000ms;
 }
 .menu__contenu .first {
-  transform: translate(105%);
+  transform: translate(107%);
   transition: 3000ms 200ms;
+}
+.menu__contenu .deux {
+  transform: translate(107%);
+  transition: 3000ms 400ms;
+}
+.menu__contenu .trois {
+  transform: translate(107%);
+  transition: 3000ms 600ms;
+}
+.menu__contenu .quatre {
+  transform: translate(107%);
+  transition: 3000ms 800ms;
+}
+.menu__contenu .cinq {
+  transform: translate(107%);
+  transition: 3000ms 1000ms;
+}
+.menu__contenu .six {
+  transform: translate(107%);
+  transition: 3000ms 1200ms;
+}
+.menu__contenu .sept {
+  transform: translate(107%);
+  transition: 3000ms 1400ms;
+}
+.menu__contenu .huit {
+  transform: translate(107%);
+  transition: 3000ms 1600ms;
+}
+.menu__contenu .neuf {
+  transform: translate(107%);
+  transition: 3000ms 1800ms;
+}
+
+.bouton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+button {
+  width: 60%;
+  padding: 13px 19px 13px 19px;
+  border-radius: 25px;
+  border-style: none;
+  background: rgb(147, 86, 220);
+  background: linear-gradient(0deg, rgb(147, 86, 220) 0%, rgb(255, 121, 218) 100%);
+  color: white;
+  font-size: 16px;
+  box-shadow: 0px 5px 5px #7d7d7d;
+  opacity: 1 250ms;
+  transition: opacity 250ms;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+button:hover {
+  opacity: 0.8;
+  transition: all 250ms;
 }
 
 footer {
