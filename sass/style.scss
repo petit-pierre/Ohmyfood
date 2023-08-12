@@ -62,7 +62,7 @@ header {
         background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%); 
         color: white;
         font-size: 16px;
-        box-shadow: 0px 5px 5px #7d7d7d;
+        box-shadow: 0px 5px 5px #cccccc;
         opacity: 1 250ms;
         transition: opacity 250ms;
         &:hover {
@@ -84,7 +84,7 @@ header {
         padding-top: 12px;
         padding-bottom: 12px;
         margin-top: 25px;
-        box-shadow: 0px 5px 5px #7d7d7d;
+        box-shadow: 0px 5px 5px #e4e4e4; 
         padding-right: 10px;
     }
     .fonctionement__liste-number {
