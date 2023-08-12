@@ -300,3 +300,116 @@ footer {
     color: white;
     padding-top: 12px;
 }
+
+/****** Media queries ***********/
+@media (min-width: 1024px) {
+
+    .image-restau {
+        height: 383px;
+        object-fit: cover;
+    }
+
+    .menu {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .menu__entete {
+        justify-content: center;
+    }
+
+    .restaurants__cards-coeur input {
+        left: 65%;
+    }
+
+    .restaurants__cards-coeur-btn {
+        left: 65%;
+    }
+
+    .restaurants__cards-coeur-color {
+        left: 65%;
+    }
+
+    .menu__contenu {
+        .maj {
+            padding-left: 19%;
+            margin-bottom: 20px;
+        }   
+    }
+
+    .menu__contenu {
+        .card {
+            width: 60%;
+            .menu__contenu-cards {
+                &:checked ~.card__content .card__content-invisible {
+                    display: none;
+                }
+                &:checked ~.card__content .card__content-visible {
+                    opacity: 1;
+                }
+            }
+        }
+        .zero {
+            transform: translate(196%);
+            transition: 3000ms;
+        }
+        .first {
+            transform: translate(196%);
+            transition: 3000ms 200ms;
+        }
+        .deux {
+            transform: translate(196%);
+            transition: 3000ms 400ms;
+        }
+        .trois {
+            transform: translate(196%);
+            transition: 3000ms 600ms;
+        }
+        .quatre {
+            transform: translate(196%);
+            transition: 3000ms 800ms;
+        }
+        .cinq {
+            transform: translate(196%);
+            transition: 3000ms 1000ms;
+        }
+        .six {
+            transform: translate(196%);
+            transition: 3000ms 1200ms;
+        }
+        .sept {
+            transform: translate(196%);
+            transition: 3000ms 1400ms;
+        }
+        .huit {
+            transform: translate(196%);
+            transition: 3000ms 1600ms;
+        }
+        .neuf {
+            transform: translate(196%);
+            transition: 3000ms 1800ms;
+        }
+    }
+
+    button {
+        width: 200px;
+    }
+
+    footer {
+        flex-direction: row-reverse;
+        .footer__img {
+            margin-left: 100px;
+        }
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        article {
+            margin-left: 20px;
+        }
+    }
+
+    .contact {padding-top: 16px;}
+}
+

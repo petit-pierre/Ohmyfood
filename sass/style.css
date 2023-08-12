@@ -53,6 +53,7 @@ header {
   font-size: 18px;
 }
 .info button {
+  margin-bottom: 20px;
   padding: 13px 19px 13px 19px;
   border-radius: 25px;
   border-style: none;
@@ -83,6 +84,7 @@ header {
   padding-bottom: 12px;
   margin-top: 25px;
   box-shadow: 0px 5px 5px #7d7d7d;
+  padding-right: 10px;
 }
 .fonctionement .fonctionement__liste-number {
   background-color: #9356DC;
