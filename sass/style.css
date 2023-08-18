@@ -10,12 +10,39 @@
     opacity: 0;
   }
 }
-.loader {
-  position: relative;
-  left: 50%;
-  top: -20px;
+@keyframes fondloader {
+  0% {
+    opacity: 1;
+    pointer-events: visible;
+  }
+  50% {
+    opacity: 1;
+    pointer-events: visible;
+  }
+  99% {
+    opacity: 0;
+    pointer-events: visible;
+  }
+  100% {
+    pointer-events: none;
+  }
 }
-.loader .loader__1 {
+.content__loader {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  animation-name: fondloader;
+  animation-duration: 4000ms;
+  opacity: 0;
+  pointer-events: none;
+}
+.content__loader .loader {
+  position: absolute;
+  left: 50%;
+  top: 300px;
+}
+.content__loader .loader__1 {
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -28,7 +55,7 @@
   animation-duration: 1000ms;
   animation-delay: 0ms;
 }
-.loader .loader__2 {
+.content__loader .loader__2 {
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -41,7 +68,7 @@
   animation-duration: 1000ms;
   animation-delay: 250ms;
 }
-.loader .loader__3 {
+.content__loader .loader__3 {
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -54,7 +81,7 @@
   animation-duration: 1000ms;
   animation-delay: 500ms;
 }
-.loader .loader__4 {
+.content__loader .loader__4 {
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -66,7 +93,7 @@
   animation-duration: 1000ms;
   animation-delay: 750ms;
 }
-.loader .loader__5 {
+.content__loader .loader__5 {
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -79,7 +106,7 @@
   animation-duration: 1000ms;
   animation-delay: 1000ms;
 }
-.loader .loader__6 {
+.content__loader .loader__6 {
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -92,7 +119,7 @@
   animation-duration: 1000ms;
   animation-delay: 1250ms;
 }
-.loader .loader__7 {
+.content__loader .loader__7 {
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -105,7 +132,7 @@
   animation-duration: 1000ms;
   animation-delay: 1500ms;
 }
-.loader .loader__8 {
+.content__loader .loader__8 {
   width: 6px;
   height: 6px;
   border-radius: 6px;
@@ -246,8 +273,8 @@ header {
 .restaurants__cards-coeur-btn {
   position: absolute;
   z-index: 1;
-  top: 75%;
-  left: 90%;
+  top: 80%;
+  left: 85%;
 }
 
 .restaurants__cards-coeur-color {
@@ -255,16 +282,16 @@ header {
   opacity: 0;
   transition: opacity 1000ms;
   z-index: 2;
-  top: 75%;
-  left: 90%;
+  top: 80%;
+  left: 85%;
 }
 
 .restaurants__cards-coeur input {
   -webkit-appearance: none;
   cursor: pointer;
   position: absolute;
-  left: 90%;
-  top: 75%;
+  left: 85%;
+  top: 80%;
   width: 22px;
   height: 21px;
   z-index: 3;
@@ -352,6 +379,9 @@ footer .footer img {
   }
   .fonctionement h1 {
     margin-left: 17%;
+  }
+  .fonctionement article img {
+    width: 30px;
   }
   .fonctionement__liste {
     display: flex;

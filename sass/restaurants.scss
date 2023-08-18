@@ -141,7 +141,7 @@ header {
             position: absolute;
         }
         .prix {
-            padding-top: 30px;
+            padding-top: 20px;
             position: absolute;
         }
         .menu__contenu-cards {
@@ -167,7 +167,7 @@ header {
         }
         .card__content {
             font-weight: 300;
-            line-height: 2px;
+            line-height: 6px;
             .card__content-invisible {
                 display: none;
                 position: absolute;
@@ -187,7 +187,7 @@ header {
         .prix {
             padding-right: 35px;
             z-index: 6;
-            left: -30px;
+            left: -50px;
         }
         .anim {
             background-color: #99E2D0;
