@@ -110,8 +110,10 @@ header {
 .menu__contenu {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .menu__contenu .maj {
+  align-self: normal;
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
@@ -199,43 +201,43 @@ header {
   padding-left: 22px;
 }
 .menu__contenu .zero {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms;
 }
 .menu__contenu .first {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 200ms;
 }
 .menu__contenu .deux {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 400ms;
 }
 .menu__contenu .trois {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 600ms;
 }
 .menu__contenu .quatre {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 800ms;
 }
 .menu__contenu .cinq {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 1000ms;
 }
 .menu__contenu .six {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 1200ms;
 }
 .menu__contenu .sept {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 1400ms;
 }
 .menu__contenu .huit {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 1600ms;
 }
 .menu__contenu .neuf {
-  transform: translate(107%);
+  transform: translate(105%);
   transition: 3000ms 1800ms;
 }
 
@@ -340,43 +342,43 @@ footer .footer img {
     opacity: 1;
   }
   .menu__contenu .zero {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms;
   }
   .menu__contenu .first {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 200ms;
   }
   .menu__contenu .deux {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 400ms;
   }
   .menu__contenu .trois {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 600ms;
   }
   .menu__contenu .quatre {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 800ms;
   }
   .menu__contenu .cinq {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 1000ms;
   }
   .menu__contenu .six {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 1200ms;
   }
   .menu__contenu .sept {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 1400ms;
   }
   .menu__contenu .huit {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 1600ms;
   }
   .menu__contenu .neuf {
-    transform: translate(196%);
+    transform: translate(163%);
     transition: 3000ms 1800ms;
   }
   button {

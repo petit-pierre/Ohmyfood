@@ -113,7 +113,9 @@ header {
 .menu__contenu {
     display: flex;
     flex-direction: column;
+    align-items: center;
     .maj {
+        align-self: normal;
         font-size: 16px;
         font-weight: 300;
         text-transform: uppercase;
@@ -200,43 +202,43 @@ header {
         } 
     }
     .zero {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms;
     }
     .first {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 200ms;
     }
     .deux {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 400ms;
     }
     .trois {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 600ms;
     }
     .quatre {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 800ms;
     }
     .cinq {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 1000ms;
     }
     .six {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 1200ms;
     }
     .sept {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 1400ms;
     }
     .huit {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 1600ms;
     }
     .neuf {
-        transform: translate(107%);
+        transform: translate(105%);
         transition: 3000ms 1800ms;
     }
 }
@@ -354,43 +356,43 @@ footer {
             }
         }
         .zero {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms;
         }
         .first {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 200ms;
         }
         .deux {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 400ms;
         }
         .trois {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 600ms;
         }
         .quatre {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 800ms;
         }
         .cinq {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 1000ms;
         }
         .six {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 1200ms;
         }
         .sept {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 1400ms;
         }
         .huit {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 1600ms;
         }
         .neuf {
-            transform: translate(196%);
+            transform: translate(163%);
             transition: 3000ms 1800ms;
         }
     }
